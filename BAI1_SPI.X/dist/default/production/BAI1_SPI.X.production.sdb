@@ -1,0 +1,357 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"1 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"1177 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\doprnt.c
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+"1817
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"39 D:\D2\hoctapdaihoc\Nam_3\VI_DIEU_KHIEN\2311345_Nguyen Thanh Hung_InClassEx_5_L02\BAI1_SPI.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"65
+[v _System_Init System_Init `(v  1 e 1 0 ]
+"80
+[v _UART_Init UART_Init `(v  1 e 1 0 ]
+"93
+[v _UART_Write_Text UART_Write_Text `(v  1 e 1 0 ]
+"100
+[v _SPI_Init SPI_Init `(v  1 e 1 0 ]
+"110
+[v _SPI_Transfer SPI_Transfer `(uc  1 e 1 0 ]
+"116
+[v _TC72_Init TC72_Init `(v  1 e 1 0 ]
+"128
+[v _TC72_ReadTemp TC72_ReadTemp `(c  1 e 1 0 ]
+"166 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc/pic16f887.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+[s S111 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"183
+[u S120 . 1 `S111 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES120  1 e 1 @5 ]
+"843
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"850
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+[s S212 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"1068
+[s S221 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S225 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nRC8 1 0 :1:6 
+]
+[s S228 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[u S231 . 1 `S212 1 . 1 0 `S221 1 . 1 0 `S225 1 . 1 0 `S228 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES231  1 e 1 @24 ]
+"1133
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1416
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+[s S90 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"1433
+[u S99 . 1 `S90 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES99  1 e 1 @133 ]
+[s S132 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1557
+[u S141 . 1 `S132 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES141  1 e 1 @135 ]
+[s S60 . 1 `uc 1 SCS 1 0 :1:0 
+`uc 1 LTS 1 0 :1:1 
+`uc 1 HTS 1 0 :1:2 
+`uc 1 OSTS 1 0 :1:3 
+`uc 1 IRCF 1 0 :3:4 
+]
+"1882
+[s S66 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 IRCF0 1 0 :1:4 
+`uc 1 IRCF1 1 0 :1:5 
+`uc 1 IRCF2 1 0 :1:6 
+]
+[u S71 . 1 `S60 1 . 1 0 `S66 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES71  1 e 1 @143 ]
+"2177
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+[s S260 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+"2231
+[s S269 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S274 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DATA 1 0 :1:5 
+]
+[s S280 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S285 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S290 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S295 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[u S300 . 1 `S260 1 . 1 0 `S269 1 . 1 0 `S274 1 . 1 0 `S280 1 . 1 0 `S285 1 . 1 0 `S290 1 . 1 0 `S295 1 . 1 0 ]
+[v _SSPSTATbits SSPSTATbits `VES300  1 e 1 @148 ]
+[s S153 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"2582
+[s S162 . 1 `uc 1 TXD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 nTX8 1 0 :1:6 
+]
+[s S166 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[u S169 . 1 `S153 1 . 1 0 `S162 1 . 1 0 `S166 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES169  1 e 1 @152 ]
+"2642
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+[s S190 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"3352
+[u S199 . 1 `S190 1 . 1 0 ]
+[v _BAUDCTLbits BAUDCTLbits `VES199  1 e 1 @391 ]
+"3387
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3449
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"153 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\doprnt.c
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"154
+[v _flags flags `uc  1 s 1 flags ]
+"185
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"39 D:\D2\hoctapdaihoc\Nam_3\VI_DIEU_KHIEN\2311345_Nguyen Thanh Hung_InClassEx_5_L02\BAI1_SPI.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"53
+[v main@temp temp `c  1 a 1 69 ]
+"50
+[v main@buffer buffer `[32]uc  1 a 32 37 ]
+"61
+} 0
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[u S874 . 2 `*.39uc 1 buffer 2 0 `*.1DCuc 1 source 1 0 ]
+"13
+[s S877 _IO_FILE 11 `S874 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v sprintf@f f `S877  1 a 11 23 ]
+"12
+[v sprintf@ap ap `[1]*.4v  1 a 1 22 ]
+"9
+[v sprintf@s s `*.4uc  1 p 1 17 ]
+[v sprintf@fmt fmt `*.24DCuc  1 p 1 18 ]
+"23
+} 0
+"1817 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1820
+[v vfprintf@cfmt cfmt `*.24uc  1 a 1 13 ]
+[s S909 _IO_FILE 0 ]
+"1817
+[v vfprintf@fp fp `*.39S909  1 p 2 13 ]
+[v vfprintf@fmt fmt `*.24DCuc  1 p 1 15 ]
+[v vfprintf@ap ap `*.4*.4v  1 p 1 16 ]
+"1840
+} 0
+"1177
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+{
+[u S922 . 4 `i 1 sint 2 0 `ui 1 uint 2 0 `d 1 f 4 0 ]
+"1188
+[v vfpfcnvrt@convarg convarg `S922  1 a 4 8 ]
+"1179
+[v vfpfcnvrt@c c `uc  1 a 1 12 ]
+[v vfpfcnvrt@cp cp `*.24uc  1 a 1 7 ]
+"1180
+[v vfpfcnvrt@done done `a  1 a 1 6 ]
+[s S909 _IO_FILE 0 ]
+"1177
+[v vfpfcnvrt@fp fp `*.39S909  1 p 2 0 ]
+[v vfpfcnvrt@fmt fmt `*.30*.24uc  1 p 1 2 ]
+[v vfpfcnvrt@ap ap `*.4*.4v  1 p 1 3 ]
+"1814
+} 0
+"8 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 0 ]
+[u S874 . 2 `*.39uc 1 buffer 2 0 `*.1DCuc 1 source 1 0 ]
+[s S877 _IO_FILE 11 `S874 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputc@fp fp `*.39S877  1 p 2 2 ]
+"24
+} 0
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+"9
+} 1
+"1 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 6 ]
+"4
+} 0
+"5 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"93 D:\D2\hoctapdaihoc\Nam_3\VI_DIEU_KHIEN\2311345_Nguyen Thanh Hung_InClassEx_5_L02\BAI1_SPI.X\main.c
+[v _UART_Write_Text UART_Write_Text `(v  1 e 1 0 ]
+{
+[v UART_Write_Text@text text `*.26DCuc  1 p 2 0 ]
+"98
+} 0
+"80
+[v _UART_Init UART_Init `(v  1 e 1 0 ]
+{
+[v UART_Init@baudrate baudrate `ul  1 p 4 0 ]
+"91
+} 0
+"128
+[v _TC72_ReadTemp TC72_ReadTemp `(c  1 e 1 0 ]
+{
+"129
+[v TC72_ReadTemp@temp_val temp_val `c  1 a 1 2 ]
+"141
+} 0
+"116
+[v _TC72_Init TC72_Init `(v  1 e 1 0 ]
+{
+"126
+} 0
+"110
+[v _SPI_Transfer SPI_Transfer `(uc  1 e 1 0 ]
+{
+[v SPI_Transfer@data data `uc  1 p 1 wreg ]
+[v SPI_Transfer@data data `uc  1 p 1 wreg ]
+[v SPI_Transfer@data data `uc  1 p 1 0 ]
+"114
+} 1
+"65
+[v _System_Init System_Init `(v  1 e 1 0 ]
+{
+"78
+} 0
+"100
+[v _SPI_Init SPI_Init `(v  1 e 1 0 ]
+{
+"108
+} 0
